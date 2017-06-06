@@ -6,6 +6,8 @@ class Solution(object):
         """
 
         # your solution here
+        if any(not isinstance(x, int) for x in nums):
+        	return 0
 
         nums.sort()
         result = 0
