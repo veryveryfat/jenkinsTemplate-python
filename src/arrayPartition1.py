@@ -7,5 +7,12 @@ class Solution(object):
 
         # your solution here
 
-        return 0
+        nums.sort()
+        result = 0
+
+        for x in nums:
+        	if x % 2 != 0:
+        		result = result + x
+
+        return result
 
