@@ -15,4 +15,3 @@ class Solution(object):
         		result = result + x
 
         return result
-
