@@ -4,7 +4,6 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        # your solution here
         if any(not isinstance(x, int) for x in nums):
         	return 0
 
